@@ -1,0 +1,60 @@
+.service_section.layout_padding.margin_0 {
+    margin: 0px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #282828;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ipsum_text {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #282828;
+    text-align: center;
+}
+
+.service_section {
+    width: 100%;
+    float: left;
+    background-color: #fcf8fe;
+    height: auto;
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+.service_section_2{
+     width: 100%;
+     float: left;
+     padding-top: 90px;
+}
+
+.icon_1{
+     width: 100%;
+     float: left;
+     text-align: center;
+}
+
+.website_text {
+    width: 100%;
+    float: left;  
+    color: #282828;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+.dolor_text{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #282828;
+    text-align: center;
+}
