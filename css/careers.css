@@ -1,0 +1,49 @@
+.job {
+  background-color: lightblue;
+  color: #00p;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  border-bottom: 0.5px solid black;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.active, .job:hover {
+  background-color: #lightblue;
+}
+
+.job:after {
+  content: '\002B';
+  color: #000000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.jobdata {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 20;
+  transition: max-height 0.2s ease-out;
+}
+
+.apply {
+   background-color: blue;
+   padding: 5px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
