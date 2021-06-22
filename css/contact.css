@@ -1,4 +1,4 @@
-#submit, #fill, #needed, #urgency, #country {font-family: 'Kiwi Maru', serif;}
+#submit, #fill, #needed, #urgency, #country, #post, #other-country {font-family: 'Kiwi Maru', serif;}
 
 input[type=text], select, textarea {
   width: 100%;
