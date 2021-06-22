@@ -1,0 +1,64 @@
+<title>Apply | Careers | SidSites.In</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SidSites | We design digital products that help to grow businesses. We are a Gwalior based innovative internet marketing agency offering a one-stop solution for digital marketing, UI/UX, branding, and graphic design">
+<meta name="keywords" content="SidSites, SidSites Global, Website Designer, Web Company, Web Agency, Web development agency, SidSites Careers">
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+<link rel="stylesheet" href="../css/services.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/contact.css">
+<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../css/dropdown.css">
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+<body>
+<h1 class="about_text">apply</h1>
+<div class="container">
+  <form action="https://formspree.io/me@sidsites.in" method="POST">
+    <label for="fname">First Name *</label>
+    <input type="text" id="fill" name="firstname" placeholder="Your first name..." required>
+
+    <label for="lname">Last Name *</label>
+    <input type="text" id="fill" name="lastname" placeholder="Your last name..." required>
+
+<label for="email">Email *</label>
+    <input type="text" id="fill" name="emailid" placeholder="Your email address..." required>
+
+<label for="needed">I am Applying for *</label>
+    <select id="post" name="post" required>
+      <option value="">Select</option>
+      <option value="programmar-ruby">Programmer (Ruby)</option>
+      <option value="programmer-python">Programmer (Python)</option>
+      <option value="graphics">Graphics Designer</option>
+</select>
+
+<label for="country">Country *</label>    
+    <select id="country" name="country" onchange="yesnoCheck(this);" required>
+      <option value="">Select</option>
+      <option value="us">United States</option>
+      <option value="uk">Britain</option>
+      <option value="no">Norway</option>
+      <option value="ja">Japan</option>
+      <option value="in">India</option>
+      <option value="other">Other</option>
+    </select>
+
+<div id="ifYes" style="display: none;">
+<label for="other-country">Your Country</label>
+
+<input type="text" id="other-country" name="other-country">
+</div>
+
+    <label for="subject">Message *</label>
+    <textarea id="fill" name="message" placeholder="Tell something about you..." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit" id="fill">
+  </form>
+</div>
+<center><img src="../images/logo.png" width="150px"></center>
+<br><br>
+
+<script>
+function yesnoCheck(that) { if (that.value == "other")
+{ document.getElementById("ifYes").style.display = "block"; } else { document.getElementById("ifYes").style.display = "none"; } }
+</script>
+</body>
