@@ -38,8 +38,9 @@
 }
 
 .apply {
-   background-color: blue;
+   background-color: black;
    padding: 5px;
+   border-radius: 2px;
  
 }
 
