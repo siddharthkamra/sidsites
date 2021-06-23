@@ -58,3 +58,9 @@
     color: #282828;
     text-align: center;
 }
+
+kbd {
+    background-color: black;
+    padding: 5;
+    border-radius: 2px;
+}
