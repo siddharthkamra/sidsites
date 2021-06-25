@@ -1,9 +1,9 @@
 #submit, #fill, #needed, #urgency, #country, #post, #other-country {font-family: 'Kiwi Maru', serif;}
 
-input[type=text], select, textarea {
+input[type=text], [type=number], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #000000;
+  border: 1px solid #242124;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -14,7 +14,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #000000;
+  background-color: #242124;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -23,7 +23,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #000000;
+  background-color: #242124;
 }
 
 .container {
