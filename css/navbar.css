@@ -2,16 +2,18 @@ body {margin: 0;
 font-family: 'Kiwi Maru', serif;
 background-color: #fcf8fe;
 }
-
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #242124;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,12 +21,12 @@ background-color: #fcf8fe;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #242124;
   color: white;
 }
 
