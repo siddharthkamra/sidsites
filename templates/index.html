@@ -5,6 +5,7 @@
 <meta name="description" content="SidSites | We design digital products that help to grow businesses. We are a Gwalior based innovative internet marketing agency offering a one-stop solution for digital marketing, UI/UX, branding, and graphic design">
 <meta name="keywords" content="SidSites, SidSites Global, SidSites Templates, Website Designer, Web Company, Web Agency, Web development agency">
 <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../css/services.css">
 <link rel="stylesheet" href="../css/templates.css">
 <link rel="stylesheet" href="../css/navbar.css">
@@ -22,6 +23,17 @@
 }
 </style>
 <body>
+<!-- Navbar -->
+
+<div class="topnav" id="myTopnav">
+<a href="#home" class="active"><img src="../images/logo-white.png" width="100" alt="SidSites Logo"></a>
+<a href="../#services">Services</a>
+<a href="#">Templates</a>
+<a href="../#contact">Contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <!-- Hero -->
 
@@ -92,5 +104,16 @@
 <!-- JS -->
 
 <script src="../js/lazyloading.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
